@@ -1,0 +1,9 @@
+[submodule "sources/androidx"]
+	path = sources/androidx
+	url = https://github.com/cmguo/androidx.git
+[submodule "sources/animal-sniffer"]
+	path = sources/animal-sniffer
+	url = https://github.com/mojohaus/animal-sniffer.git
+[submodule "sources/gson"]
+	path = sources/gson
+	url = https://github.com/google/gson.git
