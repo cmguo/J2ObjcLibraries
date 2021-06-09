@@ -1,0 +1,7 @@
+com.google.gson=
+com.google.gson.*=
+io.reactivex.*=RX
+androidx.*=AX
+
+com.xhb.prism.*=PM
+com.xhb.blbase.*=BL

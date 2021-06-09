@@ -1,0 +1,45 @@
+package com.google.j2objc.annotations:
+annotation @ReflectionSupport:
+  @Target({TYPE, PACKAGE})
+  @Retention(CLASS)
+  enum Level value
+annotation @Weak:
+  @Target({FIELD, LOCAL_VARIABLE, PARAMETER})
+  @Retention(CLASS)
+annotation @WeakOuter:
+  @Target({TYPE, TYPE_USE, LOCAL_VARIABLE})
+  @Retention(SOURCE)
+
+package com.google.gson.internal:
+  class LinkedTreeMap$Node:
+    field parent: @Weak
+    field next: @Weak
+    field prev: @Weak
+  class LinkedTreeMap$EntrySet: @WeakOuter
+  class LinkedTreeMap$KeySet: @WeakOuter
+  class LinkedHashTreeMap$EntrySet: @WeakOuter
+  class LinkedHashTreeMap$KeySet: @WeakOuter
+
+package com.google.gson.internal.bind:
+  class TreeTypeAdapter$GsonContextImpl: @WeakOuter
+
+package okio:
+  class Pipe$ipeSink: @WeakOuter
+  class Pipe$ipeSource: @WeakOuter
+
+package okhttp3.internal.http2:
+  class Http2Connection:
+    field listener: @Weak
+  class Http2Connection$ReaderRunnable: @WeakOuter
+  class Http2Stream$FramingSource: @WeakOuter
+  class Http2Stream$FramingSink: @WeakOuter
+  class Http2Stream$StreamTimeout: @WeakOuter
+
+package androidx.lifecycle:
+  class LiveData$AlwaysActiveObserver: @WeakOuter
+  class LiveData$ObserverWrapper: @WeakOuter
+  class LiveData$LifecycleBoundObserver: @WeakOuter
+  class ComputableLiveData:
+    field mLiveData: @Weak
+
+

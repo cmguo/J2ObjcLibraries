@@ -1,1 +1,0 @@
-animal-sniffer/animal-sniffer-annotations/src/main/java/org/codehaus/mojo/animal_sniffer/IgnoreJRERequirement.java

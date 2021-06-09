@@ -57,6 +57,3 @@ retrofit-2.9.0/retrofit-adapters/rxjava3/src/main/java/retrofit2/adapter/rxjava3
 retrofit-2.9.0/retrofit-adapters/rxjava3/src/main/java/retrofit2/adapter/rxjava3/RxJava3CallAdapter.java
 retrofit-2.9.0/retrofit-adapters/rxjava3/src/main/java/retrofit2/adapter/rxjava3/RxJava3CallAdapterFactory.java
 retrofit-2.9.0/retrofit-adapters/rxjava3/src/main/java/retrofit2/adapter/rxjava3/package-info.java
-retrofit-2.9.0/./retrofit-adapters/guava/src/main/java/retrofit2/adapter/guava/GuavaCallAdapterFactory.java
-retrofit-2.9.0/./retrofit-adapters/guava/src/main/java/retrofit2/adapter/guava/HttpException.java
-retrofit-2.9.0/./retrofit-adapters/guava/src/main/java/retrofit2/adapter/guava/package-info.java
