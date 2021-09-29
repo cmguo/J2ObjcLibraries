@@ -8307,6 +8307,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					../Libraries/JRE.framework/Headers,
+					../Libraries/JSR305.framework/Headers,
 					objc,
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -8365,6 +8366,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					../Libraries/JRE.framework/Headers,
+					../Libraries/JSR305.framework/Headers,
 					objc,
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
